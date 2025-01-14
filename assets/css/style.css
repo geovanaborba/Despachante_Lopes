@@ -14,6 +14,27 @@ body {
     text-align: center;
 }
 
+/* TÍTULOS e BOTTOM SECTION*/
+
+.titulo {
+    padding: 100px 0 60px 0;
+}
+
+h6.black {
+    font-size: 34px;
+    color: var(--black-logo);
+}
+
+h1.blue {
+    font-size: 75px;
+    color: var(--blue);
+}
+
+section {
+    padding-bottom: 100px;
+}
+/* FIM TÍTULOS */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -55,12 +76,12 @@ menu a {
     background: linear-gradient(90deg, rgba(23, 23, 23, 1) 0%, rgba(20, 120, 231, 0.48503151260504207) 0%, rgba(25, 27, 52, 1) 65%);
     position: relative;
     text-align: left;
-    min-height: 92vh;
+    min-height: 90vh;
 }
 
 .sobre_background {
     position: relative;
-    height: 92vh;
+    height: 90vh;
     z-index: -10;
 }
 
@@ -135,4 +156,39 @@ menu a {
 .faixa span {
     font-style: italic;
     color: var(--dark-40);
+}
+
+/* SERVIÇOS */ 
+
+#servicos .frases h1 {
+    font-size: 35px;
+}
+
+#servicos .frases p {
+    font-size: 25px;
+    color: var(--blue);
+    padding-bottom: 20px;
+}
+
+#servicos .servicos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 12%;
+}
+
+#servicos img {
+    width: 45%;
+}
+
+#servicos ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#servicos span {
+    color: var(--blue);
 }
