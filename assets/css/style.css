@@ -192,3 +192,40 @@ menu a {
 #servicos span {
     color: var(--blue);
 }
+
+/* CLIENTES */ 
+#clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clientes .cards {
+    padding: 40px;
+}
+
+#clientes p {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--dark-30);
+}
+
+#clientes .btn-mais {
+    background-color: var(--blue);
+    color: var(--dark-40);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid transparent;
+    padding: 20px 0;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+#clientes .btn-mais:hover {
+    color: var(--blue);
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    cursor: pointer;
+}
