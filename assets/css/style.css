@@ -229,3 +229,71 @@ menu a {
     border: 2px solid var(--blue);
     cursor: pointer;
 }
+
+/* DÚVIDAS FREQUENTES */
+#duvidas {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+    background-color: #1478e7;
+}
+
+#duvidas .bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #164782;
+    width: 100vw;
+}
+
+#duvidas h1 {
+    text-transform: uppercase;
+    font-size: 85px;
+    color: var(--dark-40);
+    margin-bottom: 60px;
+}
+
+#duvidas .duv-img {
+    width: 540px;
+    height: 540px;
+}
+
+.duvida {
+    width: 55vw;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    color: var(--blue);
+    border: 2px solid var(--blue-light);
+    border-radius: 8px;
+}
+
+.duvida h3 {
+    cursor: pointer;
+    display: block;
+    padding: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid var(--blue-light);
+    border-bottom: 1px solid var(--blue-light);
+    border-left: 1px solid var(--blue-light);
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    font-size: 18px;
+    line-height: 35px;
+    color: var(--dark-30);
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
